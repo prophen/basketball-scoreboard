@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("CursedTimer.ttf");
+}
+body {
+    margin: 0;
+    font-family: "CursedTimer";
+    text-align: center;
+
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #eeeeee;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    margin: 0 auto;
+}
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-buttons {
+    display: flex;
+    color: #9AABD8;
+    justify-content: space-evenly;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    margin: 20px 0;
+
+}
+#home-score , #guest-score {
+    color: #F94F6D;
+    font-size: 90px;
+}
+
+#home-plus-1, #home-plus-2, #home-plus-3, #guest-plus-1, #guest-plus-2, #guest-plus-3 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    font-family: inherit;
+    background-color: inherit;
+    color: #9AABD8
+} 
